@@ -1,0 +1,46 @@
+{
+    "github_auth": [{
+        "user_id": 1,
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    }],
+    "github_commits": [{
+        "repo": 1,
+        "commits": [{
+            "commit_id": 1,
+            "addings": 50,
+            "deletions": 46,
+            "timestamp": "2019-03-09 03:08:13Z"
+        }, {
+            "commit_id": 2,
+            "addings": 2,
+            "deletions": 30,
+            "timestamp": "2019-03-09 03:08:13Z"
+        }, {
+            "commit_id": 3,
+            "addings": 100,
+            "deletions": 0,
+            "timestamp": "2019-03-09 03:08:13Z"
+        }, {
+            "commit_id": 4,
+            "addings": 10,
+            "deletions": 3,
+            "timestamp": "2019-03-09 03:08:13Z"
+        }]
+    }, {
+        "repo": 2,
+        "commits": []
+    }],
+    "spotify_auth": [{
+        "user_id": 1,
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    }],
+    "spotify_tracks": [{
+        "track_id": 1,
+        "track_info": [{
+            "name": "The Nights",
+            "author": "Avicii",
+            "duration": 180,
+            "tags": ["electronic", "edm", "dance", "sweden"]
+        }]
+    }]
+}
