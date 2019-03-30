@@ -1,5 +1,6 @@
 import json
 from requests import post
+from .courses import courses
 
 
 def send_message(course, message):
@@ -8,7 +9,7 @@ def send_message(course, message):
     :param course: An element from the courses dictionary.
     :param message: The message to be sent to the dictionary.
     """
-    return post(url=course.value, data=json.dumps({
+    return post(url=courses[course], data=json.dumps({
         'text': message
     }), headers={
         'Content-type': 'application/json'
